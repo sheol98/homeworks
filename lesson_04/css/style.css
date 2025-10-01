@@ -2,30 +2,6 @@
 
 @import url("font.css");
 
-/* 
-  color
-  text-align
-    - ***center*** - вирівнює по центру;
-    - ***left*** - вирівнює по лівому краю **ВСТАНОВЛЕНО ЗА ЗАМОВЧУВАННЯМ** тобто не потрібно писати, тому що текст за замовчуванням вирівняно по лівій стороні;
-    - ***right*** - вирівнює по правому краю;
-    - ***justify*** - вирівнює текст по ширині об'єкта в якому він знаходиться, *автоматично змінюючи пробіли між словами.*
-
-  text-decoration 
-    - ***line-through*** - закреслює текст;
-    - ***overline*** - лінія над текстом;
-    - ***none*** - (за замовченням) скасовує встановлений раніше параметр.
-    - ***underline*** - лінія під текстом;
-
-    **text-decoration-color** - змінює колір декору
-    **text-decoration-style** - змінює стиль декору
-    **text-decoration-line** - встановлює тип декору
-
-    - **text-decoration-thickness** - встановлює товщину лінії [**інформація про властивість**](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness)
-    - **text-underline-offset** - встановлює відстань від тексту до лінії [**інформація про властивість**](https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset)
-
-
-*/
-
 body {
   font-family: "Interstate Mono", sans-serif;
 }
@@ -86,9 +62,9 @@ body {
 .text2-06 {
   word-spacing: 10px;
 }
-.text2-07 {
-}
-.footer {
-}
+
 .link-on-top {
+  text-decoration: underline;
+  color: blue;
+  font-size: 20px;
 }
