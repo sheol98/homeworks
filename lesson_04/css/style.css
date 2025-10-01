@@ -10,6 +10,8 @@ body {
   text-align: center;
   color: blue;
   font-size: 24px;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px yellowgreen;
 }
 .main {
 }
@@ -42,6 +44,7 @@ body {
   text-decoration-color: pink;
   text-decoration-style: dotted;
   font-size: 18px;
+  text-shadow: 1px 5px 7px rgb(152, 41, 41);
 }
 .text2-02 {
   text-transform: capitalize;
@@ -67,4 +70,7 @@ body {
   text-decoration: underline;
   color: blue;
   font-size: 20px;
+}
+.text2-07 {
+  text-shadow: 2px 2px 5px black;
 }
