@@ -32,6 +32,7 @@ body {
   padding: 0 15px;
   display: inline-block;
   width: 33.333%;
+  vertical-align: top;
 }
 
 .icon {
