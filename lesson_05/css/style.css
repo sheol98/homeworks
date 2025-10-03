@@ -1,0 +1,53 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.main {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.title {
+  color: #2f302c;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 72px;
+  text-align: center;
+}
+.cards {
+  font-size: 0;
+  margin: 0 -15px;
+  text-align: center;
+}
+.top-cards {
+  margin-bottom: 68px;
+}
+.card {
+  font-size: 16px;
+  padding: 0 15px;
+  display: inline-block;
+  width: 33.333%;
+  vertical-align: top;
+}
+
+.icon {
+  margin-bottom: 28px;
+}
+.sub-title {
+  color: #2f302c;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.text {
+  color: #7e7f7c;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
